@@ -1,0 +1,333 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+/* Body Header */
+
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(image/main_back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+/* Horizontal Lists */
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 1.0rem;
+}
+
+
+.horizontal-list li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-menu li a:hover {
+    color: rgb(11, 82, 32);
+    border-bottom: 1px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Name and Social Icons*/
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name-intro
+{
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-family: sans-serif;
+}
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+
+.svg-border {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.svg-border:hover {
+    box-shadow: 0px 0px 6px 4px blue;
+}
+.svgSize {
+    width: 14px;
+    height: 16px;
+}
+
+.social-icons-svg {
+    fill: black;
+
+}
+
+.social-icons li a i {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgb(52, 112, 150);
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+/*About Section*/
+
+#about {
+    height: 40vh;
+    opacity: 0.9;
+    background-image: url(image/wall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid black;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: white;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+
+/*Skills Section*/
+#skills{
+    height: 40vh;
+    opacity: 0.9;
+    background-image: url(image/wall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+    color: white;
+}
+#skilldetails{
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: white;
+    line-height: 28px;
+    font-weight: 50;
+    font-size: 1.1rem;
+}
+/* education Section */
+
+#education{
+    height: 40vh;
+    opacity: 0.9;
+    background-image: url(image/wall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+    color: white;
+}
+#edudetails{
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: white;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+
+/* Contact Form */
+
+#contact {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(image/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+#contact h1,
+#contact h1 span {
+    color: black;
+}
+
+#contact-form {
+    margin-left: 20%;
+}
+
+#contact-container {
+    display: flex;
+}
+
+#my-details-container {
+    width: 35%;
+    margin-left: 6%;
+}
+
+#my-details-container h3 {
+    color: black;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+#contact-form-container {
+    width: 50%;
+}
+
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid black;
+    color: var(--contact-light-text-color);
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+
+
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid black;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+
+#contact-form button:hover {
+    background: black;
+    color: white;
+}
+
+#contact .social-icons li a i {
+
+    font-size: 1.2rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
+
+}
+.button-contact {
+    padding: 0.2em 1.1em;
+    border: 0.1em solid black;
+    color: black;
+    border-radius: 0.1em;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-top: 2em;
+    cursor: pointer;
+  }
+/* TOP BUTTON */
+.top-button div {
+    height: 3.3em;
+    width: 2.3em;
+    background-color:black;
+    color: white;
+    border-radius: 1.9em;
+    position: fixed;
+    bottom: 2.0em;
+    right: 3.7em;
+    cursor: pointer;
+    box-shadow: 0 0.4em 0.8em 0 rgba(0, 0, 0, 0.2),
+      0 0.6em 2em 0 rgba(0, 0, 0, 0.19);
+  }
+  /* page Headings */
+  .section-heading{
+      font-size: 28px;
+      font-weight: lighter;
+  }
+
+  /* Skill divs */
+  #leftbox {
+    float:left; 
+    background:Red;
+    width:25%;
+    height:70px;
+    text-align: center;
+}
+.middlebox{
+    float:left; 
+    background:Green;
+    width:25%;
+    height:70px;
+    text-align: center;
+}
+#rightbox{
+    float:right;
+    background:blue;
+    width:25%;
+    height:70px;
+    text-align: center;
+}
